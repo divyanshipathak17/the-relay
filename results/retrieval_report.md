@@ -35,7 +35,7 @@ Lean (yours to decide): **section chunks, hybrid, k=5, no re-ranker by default**
 - Grid: raw vs cleaned text x 4 chunkings (100 / 200 / 400 words page-bound, section-based capped at 300) x
   3 retrievers (BM25, embeddings `bge-small-en-v1.5`, hybrid) x re-rank on/off (`ms-marco-MiniLM-L-6` cross-encoder,
   reorders the top 20) x k = 3/5/8. **48 configs, 1,728 rows.** All local, zero Groq quota.
-- **Hypotheses were committed before the run** (commit `4bc61ef`), so the "surprises" below are real.
+- **Hypotheses were committed before the run** (commit `aaf05f5`), so the "surprises" below are real.
 
 **How much to trust a difference:** 1 question = 3.3 points. Differences of 1 to 3 questions are within noise.
 Only treat gaps of about 4+ questions, or patterns that repeat across configs, as real.

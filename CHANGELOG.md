@@ -114,7 +114,7 @@ From here on, decisions cite principles.
 
 ---
 
-## v0.1: setup + naive retrieval  (commit 589ccda, 2026-11-13)
+## v0.1: setup + naive retrieval  (commit 2fd23c9, 2026-11-13)
 
 **What exists**
 - Paper fetcher for the 3 exact arXiv versions

@@ -28,7 +28,7 @@ Raw outputs live in `results/raw/` and are never overwritten or deleted.
 ## E02: first real retrieval query  (2026-11-13)
 - Question: does BM25 find the right passage for a simple factual question?
 - Hypothesis: (not written down before running; do this next time)
-- Setup: `python scripts/try_retrieval.py "what latency does Moshi achieve"`, size=200, overlap=40, k=5, commit 589ccda. 413 chunks.
+- Setup: `python scripts/try_retrieval.py "what latency does Moshi achieve"`, size=200, overlap=40, k=5, commit 2fd23c9. 413 chunks.
 - Result: top 5 = moshi p.63 (Three Musketeers transcript, 8.21), p.24 (MUSHRA audio eval, 8.19),
   p.62 (synthetic transcripts, 7.80), p.63 (Steinbeck transcript, 7.31), p.1 (title + authors, 6.85).
   The actual answer is in the abstract on p.1 and only appears 5th, with the wrong slice of the page.

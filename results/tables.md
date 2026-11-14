@@ -32,12 +32,12 @@ Errors (status=error, not in the brief's columns): quality 0.0%, steady 0.0%, bu
 |---|---|---|---|---|---|---|---|
 | section-300/k5/hybrid/no-rerank (all questions) | 15 (15 graded) | 53.3 | 13.3 | 26.7 | 3270 | 1156 / 9110 | 1156 / 9110 |
 | section-300/k5/hybrid/no-rerank (same 6 as below) | 6 (6 graded) | 33.3 | 33.3 | 33.3 | 2775 | 592 / 1204 | 592 / 1204 |
-| w200/k5/bm25/no-rerank | 6 (6 graded) | 66.7 | 0.0 | 33.3 | 2061 | 593 / 1864 | 593 / 1864 |
 | section-300/k3/hybrid/no-rerank | 6 (6 graded) | 33.3 | 16.7 | 50.0 | 1926 | 579 / 1277 | 579 / 1277 |
+| w200/k5/bm25/no-rerank | 6 (6 graded) | 66.7 | 0.0 | 33.3 | 2061 | 593 / 1864 | 593 / 1864 |
 
 Subset asked of every setting: Q03, Q06, Q09, Q12, Q13, Q15. Compare settings on the 'same' rows only.
 The brief's columns leave out wrongly refused answers; they are the remainder:
 - section-300/k5/hybrid/no-rerank (all questions): refused wrongly 6.7% (1 of 15)
 - section-300/k5/hybrid/no-rerank (same 6 as below): refused wrongly 0.0% (0 of 6)
-- w200/k5/bm25/no-rerank: refused wrongly 0.0% (0 of 6)
 - section-300/k3/hybrid/no-rerank: refused wrongly 0.0% (0 of 6)
+- w200/k5/bm25/no-rerank: refused wrongly 0.0% (0 of 6)

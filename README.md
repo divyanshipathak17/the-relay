@@ -49,4 +49,4 @@ python scripts/load_test.py          # all scenarios: steady, burst, burst_naive
 python scripts/build_results.py      # merge real + stand-in rows, apply your grades
 python scripts/make_tables.py        # -> results/tables.md (Tables 2a, 2b, 3)
 ```
-> **Accounts used (disclosure, Divyanshi):** I used a friend's Claude Pro subscription, GitHub account and Codespaces to build this, so the commits and the assistant conversation come from those accounts. All prompts, decisions, questions and grading are mine. The Groq account and API key used for every real run are my own.
+> **Accounts used (disclosure, Divyanshi):** I used a friend's Claude Pro subscription, GitHub account and Codespace to build this, so the commits and the assistant conversation come from those accounts. All prompts, decisions, questions and grading are mine. The Groq account and API key used for every real run are my own.
